@@ -134,6 +134,7 @@ const (
 	// Capacity of the channel for storing pods to kill. A small number should
 	// suffice because a goroutine is dedicated to check the channel and does
 	// not block on anything else.
+        // just test
 	podKillingChannelCapacity = 50
 
 	// Period for performing global cleanup tasks.
